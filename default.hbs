@@ -19,6 +19,10 @@
     <link rel="stylesheet" type="text/css" href="{{asset "plugins/anijs-0.9.3/anicollection.min.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "plugins/fancybox-3.1.25/jquery.fancybox.min.css"}}" />{{! Ghost outputs important style and meta data with this tag }}
     {{ghost_head}}
+
+    {{# if post}}
+    <link rel="stylesheet" type="text/css" href="/assets/css/prism.css" />  
+    {{/if}}
 </head>
 
 <body class="{{body_class}} nav-closed" data-spy="scroll" data-target="#tocScrollspy">

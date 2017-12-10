@@ -52,7 +52,7 @@ audio:not([controls]) {
     display: none;
 }
 html {
-    font-family: sans-serif;
+     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -88,11 +88,12 @@ mark {
     color: #000;
 }
 code, kbd, pre, samp {
-    font-family: Monaco, monospace, sans-serif !important;
+    font-family: Monaco, Consolas, monospace, sans-serif;
     font-size: 1em;
 }
 pre {
     white-space: pre-wrap;
+    font-size: 1em;
 }
 q {
     quotes: "\201C" "\201D" "\2018" "\2019";
@@ -261,7 +262,7 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif, serif !important;
+    /* font-family: "Microsoft Yahei", Helvetica, Arial, sans-serif, serif !important; */
     letter-spacing: 0.01rem;
     font-size: 1.6em !important;
     line-height: 1.75em !important;
@@ -392,25 +393,23 @@ mark {
 }
 code, tt {
     padding: 1px 3px;
-    font-family: Monaco, monospace, sans-serif !important;
-    font-size: 0.85em;
+    font-family: Consolas, Monaco, monospace, sans-serif !important;
+    font-size: 1em;
     white-space: pre-wrap;
-    background: #F7FAFB;
     border-radius: 2px;
 }
 pre {
     padding: 0px !important;
-    font-family: Monaco, monospace, sans-serif !important;
-    font-size: 0.8em !important;
+    font-family: Consolas, Monaco, monospace, sans-serif !important;
+    font-size: 1em !important;
     line-height: 1.6 !important;
     white-space: pre;
-    background: #F7FAFB;
     border: 0px !important;
 }
 pre code, pre tt {
-    font-size: inherit;
+    font-size: 1em;
+    font-family: Consolas, Monaco, monospace, sans-serif !important;
     white-space: pre-wrap;
-    background: transparent;
     border: none;
     padding: 0;
 }
